@@ -37,6 +37,12 @@
       font-size: 1rem;
       color: var(--muted);
     }
+    header img {
+      max-width: 140px;
+      display: block;
+      margin: 20px auto 10px auto;
+      filter: invert(100%);
+    }
     main {
       max-width: 960px;
       margin: 40px auto;
@@ -69,6 +75,7 @@
 </head>
 <body>
   <header>
+    <img src="https://beckfast-17.github.io/veritas-bot-legal/assets/Veritas%20Labs%20Logo.png" alt="Veritas Labs Logo">
     <h1>Veritas Labs</h1>
     <span>Privacy Policy for Official Discord Bots</span>
   </header>
@@ -76,61 +83,38 @@
   <main>
     <section>
       <h2>Privacy Policy</h2>
-      <p>This Privacy Policy outlines how data is collected, used, and protected in connection with the Veritas Labs Discord bots and services.</p>
+      <p>This bot is provided as-is. Use at your own discretion...</p>
+      <p># Privacy Policy – Braxton Veritas Bot<br>
+      This Privacy Policy outlines how the Braxton Veritas Bot collects and uses data.</p>
     </section>
 
     <section>
       <h2>1. Data Collected</h2>
       <ul>
-        <li>Discord user ID</li>
-        <li>Server ID</li>
-        <li>Message content and usage logs (for automation purposes)</li>
-        <li>Bot command usage</li>
-        <li>Payment metadata (via Stripe/Discord — no card details stored)</li>
+        <li><strong>Message Content</strong> – The bot may access and log messages in specific channels (e.g. <code>#observer-suggestions</code>) for support or automation purposes. This is only used for internal functions like logging, reminders, and content improvement.</li>
+        <li><strong>User IDs & Usernames</strong> – These may be logged with suggestions for tracking and tier management. Data is never shared outside the server environment or Zapier integration.</li>
+        <li><strong>Zapier Integration</strong> – If enabled, certain content (e.g. Observer suggestions) may be sent to a Google Sheet or webhook via Zapier.</li>
       </ul>
     </section>
 
     <section>
-      <h2>2. Purpose of Data</h2>
-      <p>We use data strictly to operate and improve the functionality of our bots and to enable premium features tied to user roles, like the Observer tier.</p>
+      <h2>2. Data Security</h2>
+      <p>No sensitive data (e.g. passwords, emails, payment info) is ever collected or stored. All logs are internal and never sold or shared.</p>
     </section>
 
     <section>
-      <h2>3. Third-Party Services</h2>
-      <ul>
-        <li>Zapier (for automation workflows)</li>
-        <li>Stripe (for payment processing)</li>
-        <li>Discord (as the main platform and data host)</li>
-      </ul>
-      <p>None of your data is sold or shared beyond these integrations.</p>
+      <h2>3. Your Rights</h2>
+      <p>You can request deletion of your data at any time by contacting the bot owner.</p>
     </section>
 
     <section>
-      <h2>4. Data Retention</h2>
-      <p>Logs and data may be stored for up to 90 days for security, audit, and bug analysis purposes. Financial records may be retained longer as required by law.</p>
+      <h2>4. Agreement</h2>
+      <p>The bot follows Discord’s Terms of Service and privacy requirements. Continued use constitutes agreement. Contact Braxton Vaughn Beck via Discord. Last updated: 6/29/2025</p>
     </section>
-
-    <section>
-      <h2>5. Your Rights</h2>
-      <ul>
-        <li>You may request removal of your data by contacting us directly.</li>
-        <li>You can opt out of premium tracking by not subscribing or by disabling bot access.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>6. Security</h2>
-      <p>We follow best practices in securing webhook endpoints and GitHub-hosted files. Admin credentials are never stored inside bot code. Payment is handled through secure third-party services.</p>
-    </section>
-
-    <section>
-      <h2>7. Policy Updates</h2>
-      <p>This policy may be updated without prior notice. Last revision date is listed below. Continued use of the bot implies acceptance of any changes.</p>
-    </section>
-
-    <footer>
-      Contact: Braxton Vaughn Beck via Discord | Last updated: June 29, 2025
-    </footer>
   </main>
+
+  <footer>
+    Contact: Braxton Vaughn Beck via Discord | Last updated: June 29, 2025
+  </footer>
 </body>
 </html>
